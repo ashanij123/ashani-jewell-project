@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Hello!</title>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <!-- This is what makes a title/heading on the website -->
+    <h1><u>Light and Sound Memory Game</u></h1>
+    <!-- This is used to make paragraphs but in our case this is giving the description of the game -->
+    <p>
+      Hello and welcome to the game! Let the pattern play <u>COMPLETLY</u>, then
+      attempt to repeat back the pattern. You are given <u>THREE</u> chances!
+      The clues speed up as you go so bring your "A" game. Good Luck!
+    </p>
+    <!-- this is the start button -->
+    <button id="startBtn" onclick="startGame()">
+      Start
+    </button>
+    <!-- this is the start button -->
+    <button id="stopBtn" class="hidden" onclick="stopGame()">
+      End
+    </button>
+    <!-- these are all the other button -->
+    <div id="gameButtonArea">
+      <!-- the green button -->
+      <button
+        id="button1"
+        onclick="guess(1)"
+        onmousedown="startTone(1)"
+        onmouseup="stopTone()"
+      >
+        Button 1
+      </button>
+      <!-- the blue button -->
+      <button
+        id="button2"
+        onclick="guess(2)"
+        onmousedown="startTone(2)"
+        onmouseup="stopTone()"
+      >
+        Button 2
+      </button>
+      <!-- the light pink button -->
+      <button
+        id="button3"
+        onclick="guess(3)"
+        onmousedown="startTone(3)"
+        onmouseup="stopTone()"
+      >
+        Button 3
+      </button>
+      <!-- the yellow button -->
+      <button
+        id="button4"
+        onclick="guess(4)"
+        onmousedown="startTone(4)"
+        onmouseup="stopTone()"
+      >
+        Button 4
+      </button>
+      <!-- the grey button -->
+      <button
+        id="button5"
+        onclick="guess(5)"
+        onmousedown="startTone(5)"
+        onmouseup="stopTone()"
+      >
+        Button 5
+      </button>
+      <!-- the hot pink button -->
+      <button
+        id="button6"
+        onclick="guess(6)"
+        onmousedown="startTone(6)"
+        onmouseup="stopTone()"
+      >
+        Button 6
+      </button>
+    </div>
+  </body>
+  <body1
+    ><p>
+      Brought To You By: Ashani Jewell
+    </p></body1
+  >
+</html>

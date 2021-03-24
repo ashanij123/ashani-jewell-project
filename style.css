@@ -1,0 +1,140 @@
+/* CSS files add styling rules to your content */
+
+body {
+  /* Changes the format the body of the site such as color and font of words and background*/
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+  background-color: lightyellow;
+  color: black;
+}
+body1 {
+  /* Changes the format the body of the site such as color and font of words and background*/
+  font-family: Cursive, arial, sans-serif;
+  margin: 2em;
+  color: #D2691E;
+}
+
+h1 {
+  /* Changes the format the header of the site such as color and font of words*/
+  font-style: italic;
+  color: #CD853F;
+  font-family: verdana, arial, sans-serif;
+}
+
+button {
+  /* This is controlling the button sizing*/
+  padding: 10px;
+  border-radius: 10px;
+}
+/* This is controlling the button sizing of the game buttons*/
+#gameButtonArea > button {
+  width: 150px;
+  height: 150px;
+  margin: 3px;
+}
+/* This is used in the index.html to hide the stop button*/
+.hidden {
+  display: none;
+}
+/* This makes button 1 to #603C14*/
+#button1 {
+  background: #603C14;
+  font-style: Bold;
+  color: black;
+  font-family: Fantasy, Cursive, sans-serif;
+  font-size: 20px;
+}
+#button1:hover{
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+/* This makes button 2 #9C2706*/
+#button2 {
+  background: #9C2706;
+  font-style: Bold;
+  color: black;
+  font-family: Fantasy, Cursive, sans-serif;
+  font-size: 20px;
+}
+#button2:hover{
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+/* This makes button 3 to #D45B12*/
+#button3 {
+  background: #D45B12;
+  font-style: Bold;
+  color: black;
+  font-family: Fantasy, Cursive, sans-serif;
+  font-size: 20px;
+}
+#button3:hover{
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+/* This makes button 4 to #F3BC2E*/
+#button4 {
+  background: #F3BC2E;
+  font-style: Bold;
+  color: black;
+  font-family: Fantasy, Cursive, sans-serif;
+  font-size: 20px;
+}
+#button4:hover{
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+/* This makes button 5 to #5F5426*/
+#button5 {
+  background: #5F5426;
+  font-style: Bold;
+  color: black;
+  font-family: Fantasy, Cursive, sans-serif;
+  font-size: 20px;
+}
+#button5:hover{
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+/* This makes button 6 to #6B8E23*/
+#button6 {
+  background: #6B8E23;
+  font-style: Bold;
+  color: black;
+  font-family: Fantasy, Cursive, sans-serif;
+  font-size: 20px;
+}
+#button6:hover{
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+/* This makes button 1 to image when clicked*/
+#button1:active,
+#button1.lit {
+  background: green;
+  background-image: url("https://cdn.glitch.com/a18594b5-3020-4121-b204-3f8a6b924e0d%2Fb084cb7c4c54c0619b0b1df86e91e799.jpg?v=1615968742738");
+}
+/* This makes button 2 to image when clicked*/
+#button2:active,
+#button2.lit {
+  background: blue;
+  background-image: url("https://cdn.glitch.com/a18594b5-3020-4121-b204-3f8a6b924e0d%2Funnamed.jpg?v=1615969112821");
+}
+/* This makes button 3 to image when clicked*/
+#button3:active,
+#button3.lit {
+  background: red;
+  background-image: url("https://cdn.glitch.com/a18594b5-3020-4121-b204-3f8a6b924e0d%2Fimages.jpg?v=1615969176431");
+}
+/* This makes button 4 to image when clicked*/
+#button4:active,
+#button4.lit {
+  background: yellow;
+  background-image: url("https://cdn.glitch.com/a18594b5-3020-4121-b204-3f8a6b924e0d%2F8b16327117903e3658eea6497db6a8bf.jpg?v=1615968638788");
+}
+/* This makes button 5 to image when clicked*/
+#button5:active,
+#button5.lit {
+  background: black;
+  background-image: url("https://cdn.glitch.com/a18594b5-3020-4121-b204-3f8a6b924e0d%2Fbeige-aesthetic-20.jpg?v=1615968303693");
+}
+/* This makes button 6 to image when clicked*/
+#button6:active,
+#button6.lit {
+  background: purple;
+  background-image: url("https://cdn.glitch.com/a18594b5-3020-4121-b204-3f8a6b924e0d%2Fbeige-aesthetic-51.jpg?v=1615967991056");
+}
